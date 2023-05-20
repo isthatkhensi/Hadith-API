@@ -1,0 +1,408 @@
+{
+    "id": "muslim",
+    "collection_name": "Sahih Muslim",
+    "collection_name_arabic": "صحيح مسلم",
+    "description": "Sahih Muslim is a collection of hadith compiled by Imam Muslim ibn al-Hajjaj al-Naysaburi (rahimahullah). It is second in authenticity only to the Quran.",
+    "num_books": 57,
+    "books": [
+        {
+            "book_id": "introduction",
+            "book_number": "0",
+            "english_book_name": "Introduction",
+            "arabic_book_name": "المقدمة",
+            "hadith_amount": 7
+        },
+        {
+            "book_id": "faith",
+            "book_number": "1",
+            "english_book_name": "The Book of Faith",
+            "arabic_book_name": "كتاب الإيمان",
+            "hadith_amount": 215
+        },
+        {
+            "book_id": "purification",
+            "book_number": "2",
+            "english_book_name": "The Book of Purification",
+            "arabic_book_name": " كتاب الطهارة",
+            "hadith_amount": 70
+        },
+        {
+            "book_id": "menstruation",
+            "book_number": "3",
+            "english_book_name": "The Book of Menstruation",
+            "arabic_book_name": " كتاب الحيض",
+            "hadith_amount": 84
+        },
+        {
+            "book_id": "prayers",
+            "book_number": "4",
+            "english_book_name": "The Book of Prayers ",
+            "arabic_book_name": " كتاب الصلاة",
+            "hadith_amount": 143
+        },
+        {
+            "book_id": "mosques",
+            "book_number": "5",
+            "english_book_name": "The Book of Mosques and Places of Prayer",
+            "arabic_book_name": " كتاب الْمَسَاجِدِ وَمَوَاضِعِ الصَّلاَةِ",
+            "hadith_amount": 165
+        },
+        {
+            "book_id": "prayer_travellers",
+            "book_number": "6",
+            "english_book_name": "The Book of Prayer - Travellers",
+            "arabic_book_name": " كتاب صلاة المسافرين وقصرها",
+            "hadith_amount": 159
+        },
+        {
+            "book_id": "prayer_friday",
+            "book_number": "7",
+            "english_book_name": "The Book of Prayer - Friday",
+            "arabic_book_name": " كتاب الجمعة",
+            "hadith_amount": 40
+        },
+        {
+            "book_id": "prayer_eids",
+            "book_number": "8",
+            "english_book_name": "The Book of Prayer - Two Eids",
+            "arabic_book_name": " كتاب صلاة العيدين",
+            "hadith_amount": 10
+        },
+        {
+            "book_id": "prayer_rain",
+            "book_number": "9",
+            "english_book_name": "The Book of Prayer - Rain",
+            "arabic_book_name": " كتاب صلاة الاستسقاء‏",
+            "hadith_amount": 7
+        },
+        {
+            "book_id": "prayer_eclipses",
+            "book_number": "10",
+            "english_book_name": "The Book of Prayer - Eclipses",
+            "arabic_book_name": " كتاب الكسوف",
+            "hadith_amount": 15
+        },
+        {
+            "book_id": "prayer_funerals",
+            "book_number": "11",
+            "english_book_name": "The Book of Prayer - Funerals",
+            "arabic_book_name": " كتاب الجنائز",
+            "hadith_amount": 63
+        },
+        {
+            "book_id": "zakat",
+            "book_number": "12",
+            "english_book_name": "The Book of Zakat",
+            "arabic_book_name": " كتاب الزكاة",
+            "hadith_amount": 100
+        },
+        {
+            "book_id": "fasting",
+            "book_number": "13",
+            "english_book_name": "The Book of Fasting ",
+            "arabic_book_name": " كتاب الصيام",
+            "hadith_amount": 92
+        },
+        {
+            "book_id": "itikaf",
+            "book_number": "14",
+            "english_book_name": "The Book of I'tikaf",
+            "arabic_book_name": " كتاب الاعتكاف",
+            "hadith_amount": 6
+        },
+        {
+            "book_id": "pilgrimage",
+            "book_number": "15",
+            "english_book_name": "The Book of Pilgrimage",
+            "arabic_book_name": " كتاب الحج",
+            "hadith_amount": 223
+        },
+        {
+            "book_id": "marriage",
+            "book_number": "16",
+            "english_book_name": "The Book of Marriage",
+            "arabic_book_name": "كتاب النكاح",
+            "hadith_amount": 44
+        },
+        {
+            "book_id": "suckling",
+            "book_number": "17",
+            "english_book_name": "The Book of Suckling",
+            "arabic_book_name": " كتاب الرضاع",
+            "hadith_amount": 27
+        },
+        {
+            "book_id": "divorce",
+            "book_number": "18",
+            "english_book_name": "The Book of Divorce ",
+            "arabic_book_name": " كتاب الطلاق",
+            "hadith_amount": 21
+        },
+        {
+            "book_id": "invoking_curses",
+            "book_number": "19",
+            "english_book_name": "The Book of Invoking Curses",
+            "arabic_book_name": " كتاب اللعان",
+            "hadith_amount": 9
+        },
+        {
+            "book_id": "empancipating",
+            "book_number": "20",
+            "english_book_name": "The Book of Emancipating Slaves",
+            "arabic_book_name": "كتاب العتق",
+            "hadith_amount": 10
+        },
+        {
+            "book_id": "transactions",
+            "book_number": "21",
+            "english_book_name": "The Book of Transactions",
+            "arabic_book_name": " كتاب البيوع",
+            "hadith_amount": 40
+        },
+        {
+            "book_id": "musaquah",
+            "book_number": "22",
+            "english_book_name": "The Book of Musaqah",
+            "arabic_book_name": " كتاب المساقاة",
+            "hadith_amount": 63
+        },
+        {
+            "book_id": "inheritance",
+            "book_number": "23",
+            "english_book_name": "The Book of the Rules of Inheritance",
+            "arabic_book_name": " كتاب الفرائض",
+            "hadith_amount": 6
+        },
+        {
+            "book_id": "gifts",
+            "book_number": "24",
+            "english_book_name": "The Book of Gifts",
+            "arabic_book_name": " كتاب الهبات",
+            "hadith_amount": 7
+        },
+        {
+            "book_id": "wills",
+            "book_number": "25",
+            "english_book_name": "The Book of Wills",
+            "arabic_book_name": " كتاب الوصية",
+            "hadith_amount": 11
+        },
+        {
+            "book_id": "vows",
+            "book_number": "26",
+            "english_book_name": "The Book of Vows",
+            "arabic_book_name": " كتاب النذر",
+            "hadith_amount": 8
+        },
+        {
+            "book_id": "oaths",
+            "book_number": "27",
+            "english_book_name": "The Book of Oaths",
+            "arabic_book_name": " كتاب الأيمان",
+            "hadith_amount": 23
+        },
+        {
+            "book_id": "blood_money",
+            "book_number": "28",
+            "english_book_name": "The Book of Oaths, Muharibin, Qasas (Retaliation), and Diyat (Blood Money)",
+            "arabic_book_name": " كتاب القسامة والمحاربين والقصاص والديات",
+            "hadith_amount": 15
+        },
+        {
+            "book_id": "legal_punishments",
+            "book_number": "29",
+            "english_book_name": "The Book of Legal Punishments",
+            "arabic_book_name": " كتاب الحدود",
+            "hadith_amount": 27
+        },
+        {
+            "book_id": "judicial_decisions",
+            "book_number": "30",
+            "english_book_name": "The Book of Judicial Decisions",
+            "arabic_book_name": " كتاب الأقضية",
+            "hadith_amount": 11
+        },
+        {
+            "book_id": "lost_property",
+            "book_number": "31",
+            "english_book_name": "The Book of Lost Property",
+            "arabic_book_name": " كتاب اللقطة",
+            "hadith_amount": 8
+        },
+        {
+            "book_id": "jihad",
+            "book_number": "32",
+            "english_book_name": "The Book of Jihad and Expeditions",
+            "arabic_book_name": " كتاب الجهاد والسير",
+            "hadith_amount": 88
+        },
+        {
+            "book_id": "government",
+            "book_number": "33",
+            "english_book_name": "The Book on Government",
+            "arabic_book_name": " كتاب الإمارة",
+            "hadith_amount": 111
+        },
+        {
+            "book_id": "judicial_decisions",
+            "book_number": "34",
+            "english_book_name": "The Book of Hunting, Slaughter, and what may be Eaten",
+            "arabic_book_name": " كتاب الصيد والذبائح وما يؤكل من الحيوان",
+            "hadith_amount": 31
+        },
+        {
+            "book_id": "sacrifices",
+            "book_number": "35",
+            "english_book_name": "The Book of Sacrifices",
+            "arabic_book_name": " كتاب الأضاحى",
+            "hadith_amount": 19
+        },
+        {
+            "book_id": "drinks",
+            "book_number": "36",
+            "english_book_name": "The Book of Drinks",
+            "arabic_book_name": " كتاب الأشربة",
+            "hadith_amount": 86
+        },
+        {
+            "book_id": "clothes",
+            "book_number": "37",
+            "english_book_name": "The Book of Clothes and Adornment",
+            "arabic_book_name": " كتاب اللباس والزينة",
+            "hadith_amount": 66
+        },
+        {
+            "book_id": "etiquette",
+            "book_number": "38",
+            "english_book_name": "The Book of Manners and Etiquette",
+            "arabic_book_name": " كتاب الآداب",
+            "hadith_amount": 29
+        },
+        {
+            "book_id": "greetings",
+            "book_number": "39",
+            "english_book_name": "The Book of Greetings",
+            "arabic_book_name": " كتاب السلام",
+            "hadith_amount": 86
+        },
+        {
+            "book_id": "correct_words",
+            "book_number": "40",
+            "english_book_name": "The Book Concerning the Use of Correct Words",
+            "arabic_book_name": " كتاب الألفاظ من الأدب وغيرها",
+            "hadith_amount": 9
+        },
+        {
+            "book_id": "poetry",
+            "book_number": "41",
+            "english_book_name": "The Book of Poetry",
+            "arabic_book_name": " كتاب الشعر",
+            "hadith_amount": 6
+        },
+        {
+            "book_id": "dreams",
+            "book_number": "42",
+            "english_book_name": "The Book of Dreams",
+            "arabic_book_name": " كتاب الرؤيا",
+            "hadith_amount": 15
+        },
+        {
+            "book_id": "virtues",
+            "book_number": "43",
+            "english_book_name": "The Book of Virtues",
+            "arabic_book_name": " كتاب الفضائل",
+            "hadith_amount": 105
+        },
+        {
+            "book_id": "merits",
+            "book_number": "44",
+            "english_book_name": "The Book of the Merits of the Companions",
+            "arabic_book_name": " كتاب فضائل الصحابة رضى الله تعالى عنهم",
+            "hadith_amount": 167
+        },
+        {
+            "book_id": "kinship",
+            "book_number": "45",
+            "english_book_name": "The Book of Virtue, Enjoining Good Manners, and Joining of the Ties of Kinship",
+            "arabic_book_name": " كتاب البر والصلة والآداب",
+            "hadith_amount": 95
+        },
+        {
+            "book_id": "destiny",
+            "book_number": "46",
+            "english_book_name": "The Book of Destiny",
+            "arabic_book_name": " كتاب القدر",
+            "hadith_amount": 22
+        },
+        {
+            "book_id": "knowledge",
+            "book_number": "47",
+            "english_book_name": "The Book of Knowledge",
+            "arabic_book_name": " كتاب العلم",
+            "hadith_amount": 10
+        },
+        {
+            "book_id": "forgiveness",
+            "book_number": "48",
+            "english_book_name": "The Book Pertaining to the Remembrance of Allah, Supplication, Repentance and Seeking Forgiveness ",
+            "arabic_book_name": " كتاب الذكر والدعاء والتوبة والاستغفار",
+            "hadith_amount": 61
+        },
+        {
+            "book_id": "traditions",
+            "book_number": "49",
+            "english_book_name": "The Book of Heart-Melting Traditions",
+            "arabic_book_name": " كتاب الرقاق",
+            "hadith_amount": 8
+        },
+        {
+            "book_id": "repentance",
+            "book_number": "50",
+            "english_book_name": "The Book of Repentance",
+            "arabic_book_name": " كتاب التوبة",
+            "hadith_amount": 28
+        },
+        {
+            "book_id": "hypocrites",
+            "book_number": "51",
+            "english_book_name": "Characteristics of The Hypocrites And Rulings Concerning Them",
+            "arabic_book_name": " كتاب صفات المنافقين وأحكامهم",
+            "hadith_amount": 13
+        },
+        {
+            "book_id": "judgment_day",
+            "book_number": "52",
+            "english_book_name": "Characteristics of the Day of Judgment, Paradise, and Hell",
+            "arabic_book_name": " كتاب صفة القيامة والجنة والنار",
+            "hadith_amount": 37
+        },
+        {
+            "book_id": "paradise",
+            "book_number": "53",
+            "english_book_name": "The Book of Paradise, its Description, its Bounties and its Inhabitants",
+            "arabic_book_name": " كتاب الجنة وصفة نعيمها وأهلها",
+            "hadith_amount": 58
+        },
+        {
+            "book_id": "tribulations",
+            "book_number": "54",
+            "english_book_name": "The Book of Tribulations and Portents of the Last Hour",
+            "arabic_book_name": " كتاب الفتن وأشراط الساعة",
+            "hadith_amount": 76
+        },
+        {
+            "book_id": "zuhd",
+            "book_number": "55",
+            "english_book_name": "The Book of Zuhd and Softening of Hearts ",
+            "arabic_book_name": " كتاب الزهد والرقائق",
+            "hadith_amount": 59
+        },
+        {
+            "book_id": "quran",
+            "book_number": "56",
+            "english_book_name": "The Book of Commentary on the Qur'an",
+            "arabic_book_name": " كتاب التفسير",
+            "hadith_amount": 19
+        }
+    ]
+}

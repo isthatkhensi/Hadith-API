@@ -1,0 +1,310 @@
+{
+    "id": "abudawud",
+    "collection_name": "Sunan Abi Dawud",
+    "collection_name_arabic": "سنن أبي داود",
+    "description": "Sunan Abi Dawud is a collection of hadith compiled by Imam Abu Dawud Sulayman ibn al-Ash'ath as-Sijistani (rahimahullah). It is widely considered to be among the six canonical collections of hadith (Kutub as-Sittah) of the Sunnah of the Prophet (ﷺ).",
+    "num_books": 43,
+    "books": [
+        {
+            "book_id": "purification",
+            "book_number": "1",
+            "english_book_name": "Purification (Kitab Al-Taharah)",
+            "arabic_book_name": " كتاب الطهارة ",
+            "hadith_amount": 390
+        },
+        {
+            "book_id": "prayer",
+            "book_number": "2",
+            "english_book_name": "Prayer (Kitab Al-Salat)",
+            "arabic_book_name": " كتاب الصلاة",
+            "hadith_amount": 770
+        },
+        {
+            "book_id": "rain_prayer",
+            "book_number": "3",
+            "english_book_name": "The Book Of The Prayer For Rain (Kitab al-Istisqa')",
+            "arabic_book_name": " كتاب الاستسقاء ",
+            "hadith_amount": 37
+        },
+        {
+            "book_id": "journey_prayer",
+            "book_number": "4",
+            "english_book_name": "Prayer (Kitab Al-Salat): Detailed Rules of Law about the Prayer during Journey",
+            "arabic_book_name": " كتاب صلاة السفر ",
+            "hadith_amount": 52
+        },
+        {
+            "book_id": "voluntary_prayer",
+            "book_number": "5",
+            "english_book_name": "Prayer (Kitab Al-Salat): Voluntary Prayers",
+            "arabic_book_name": " كتاب التطوع ",
+            "hadith_amount": 121
+        },
+        {
+            "book_id": "ramadan",
+            "book_number": "6",
+            "english_book_name": "Prayer (Kitab Al-Salat): Detailed Injunctions about Ramadan",
+            "arabic_book_name": " كتاب شهر رمضان ",
+            "hadith_amount": 30
+        },
+        {
+            "book_id": "prostration",
+            "book_number": "7",
+            "english_book_name": "Prayer (Kitab Al-Salat): Prostration while reciting the Qur'an",
+            "arabic_book_name": " كتاب سجود القرآن ",
+            "hadith_amount": 15
+        },
+        {
+            "book_id": "witr",
+            "book_number": "8",
+            "english_book_name": "Prayer (Kitab Al-Salat): Detailed Injunctions about Witr",
+            "arabic_book_name": " كتاب الوتر ",
+            "hadith_amount": 140
+        },
+        {
+            "book_id": "zakat",
+            "book_number": "9",
+            "english_book_name": "Zakat (Kitab Al-Zakat)",
+            "arabic_book_name": " كتاب الزكاة ",
+            "hadith_amount": 145
+        },
+        {
+            "book_id": "lost_items",
+            "book_number": "10",
+            "english_book_name": "The Book of Lost and Found Items",
+            "arabic_book_name": " كتاب اللقطة ",
+            "hadith_amount": 20
+        },
+        {
+            "book_id": "hajj",
+            "book_number": "11",
+            "english_book_name": "The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)",
+            "arabic_book_name": " كتاب المناسك ",
+            "hadith_amount": 325
+        },
+        {
+            "book_id": "marriage",
+            "book_number": "12",
+            "english_book_name": "Marriage (Kitab Al-Nikah)",
+            "arabic_book_name": " كتاب النكاح ",
+            "hadith_amount": 129
+        },
+        {
+            "book_id": "divorce",
+            "book_number": "13",
+            "english_book_name": "Divorce (Kitab Al-Talaq)",
+            "arabic_book_name": " كتاب الطلاق ",
+            "hadith_amount": 138
+        },
+        {
+            "book_id": "fasting",
+            "book_number": "14",
+            "english_book_name": "Fasting (Kitab Al-Siyam)",
+            "arabic_book_name": " كتاب الصوم ",
+            "hadith_amount": 164
+        },
+        {
+            "book_id": "jihad",
+            "book_number": "15",
+            "english_book_name": "Jihad (Kitab Al-Jihad)",
+            "arabic_book_name": " كتاب الجهاد ",
+            "hadith_amount": 311
+        },
+        {
+            "book_id": "sacrifice",
+            "book_number": "16",
+            "english_book_name": "Sacrifice (Kitab Al-Dahaya)",
+            "arabic_book_name": " كتاب الضحايا ",
+            "hadith_amount": 56
+        },
+        {
+            "book_id": "game",
+            "book_number": "17",
+            "english_book_name": "Game (Kitab Al-Said)",
+            "arabic_book_name": " كتاب الصيد ",
+            "hadith_amount": 18
+        },
+        {
+            "book_id": "wills",
+            "book_number": "18",
+            "english_book_name": "Wills (Kitab Al-Wasaya)",
+            "arabic_book_name": " كتاب الوصايا ",
+            "hadith_amount": 23
+        },
+        {
+            "book_id": "inheritance",
+            "book_number": "19",
+            "english_book_name": "Shares of Inheritance (Kitab Al-Fara'id)",
+            "arabic_book_name": " كتاب الفرائض ",
+            "hadith_amount": 43
+        },
+        {
+            "book_id": "tribute",
+            "book_number": "20",
+            "english_book_name": "Tribute, Spoils, and Rulership (Kitab Al-Kharaj, Wal-Fai' Wal-Imarah)",
+            "arabic_book_name": " كتاب الخراج والإمارة والفىء ",
+            "hadith_amount": 161
+        },
+        {
+            "book_id": "funerals",
+            "book_number": "21",
+            "english_book_name": "Funerals (Kitab Al-Jana'iz)",
+            "arabic_book_name": " كتاب الجنائز ",
+            "hadith_amount": 153
+        },
+        {
+            "book_id": "oaths",
+            "book_number": "22",
+            "english_book_name": "Oaths and Vows (Kitab Al-Aiman Wa Al-Nudhur)",
+            "arabic_book_name": " كتاب الأيمان والنذور ",
+            "hadith_amount": 84
+        },
+        {
+            "book_id": "transationd",
+            "book_number": "23",
+            "english_book_name": "Commercial Transactions (Kitab Al-Buyu)",
+            "arabic_book_name": " كتاب البيوع ",
+            "hadith_amount": 90
+        },
+        {
+            "book_id": "wages",
+            "book_number": "24",
+            "english_book_name": "Wages (Kitab Al-Ijarah)",
+            "arabic_book_name": " كتاب الإجارة ",
+            "hadith_amount": 155
+        },
+        {
+            "book_id": "judges",
+            "book_number": "25",
+            "english_book_name": "The Office of the Judge (Kitab Al-Aqdiyah)",
+            "arabic_book_name": " كتاب الأقضية ",
+            "hadith_amount": 70
+        },
+        {
+            "book_id": "knowledge",
+            "book_number": "26",
+            "english_book_name": "Knowledge (Kitab Al-Ilm)",
+            "arabic_book_name": " كتاب العلم ",
+            "hadith_amount": 28
+        },
+        {
+            "book_id": "drinks",
+            "book_number": "27",
+            "english_book_name": "Drinks (Kitab Al-Ashribah)",
+            "arabic_book_name": " كتاب الأشربة ",
+            "hadith_amount": 67
+        },
+        {
+            "book_id": "foods",
+            "book_number": "28",
+            "english_book_name": "Foods (Kitab Al-At'imah)",
+            "arabic_book_name": " كتاب الأطعمة ",
+            "hadith_amount": 119
+        },
+        {
+            "book_id": "medicine",
+            "book_number": "29",
+            "english_book_name": "Medicine (Kitab Al-Tibb)",
+            "arabic_book_name": " كتاب الطب ",
+            "hadith_amount": 49
+        },
+        {
+            "book_id": "omens",
+            "book_number": "30",
+            "english_book_name": "Divination and Omens (Kitab Al-Kahanah Wa Al-Tatayyur)",
+            "arabic_book_name": "كتاب الكهانة و التطير",
+            "hadith_amount": 22
+        },
+        {
+            "book_id": "slaves",
+            "book_number": "31",
+            "english_book_name": "The Book of Manumission of Slaves",
+            "arabic_book_name": " كتاب العتق ",
+            "hadith_amount": 43
+        },
+        {
+            "book_id": "reading_quran",
+            "book_number": "32",
+            "english_book_name": "Dialects and Readings of the Qur'an (Kitab Al-Huruf Wa Al-Qira'at)",
+            "arabic_book_name": " كتاب الحروف والقراءات ",
+            "hadith_amount": 40
+        },
+        {
+            "book_id": "hot_baths",
+            "book_number": "33",
+            "english_book_name": "Hot Baths (Kitab Al-Hammam)",
+            "arabic_book_name": " كتاب الحمَّام",
+            "hadith_amount": 11
+        },
+        {
+            "book_id": "clothing",
+            "book_number": "34",
+            "english_book_name": "Clothing (Kitab Al-Libas)",
+            "arabic_book_name": " كتاب اللباس ",
+            "hadith_amount": 139
+        },
+        {
+            "book_id": "combing_hair",
+            "book_number": "35",
+            "english_book_name": "Combing the Hair (Kitab Al-Tarajjul)",
+            "arabic_book_name": " كتاب الترجل ",
+            "hadith_amount": 55
+        },
+        {
+            "book_id": "signet_rings",
+            "book_number": "36",
+            "english_book_name": "Signet-Rings (Kitab Al-Khatam)",
+            "arabic_book_name": " كتاب الخاتم ",
+            "hadith_amount": 26
+        },
+        {
+            "book_id": "trails",
+            "book_number": "37",
+            "english_book_name": "Trials and Fierce Battles (Kitab Al-Fitan Wa Al-Malahim)",
+            "arabic_book_name": " كتاب الفتن والملاحم ",
+            "hadith_amount": 39
+        },
+        {
+            "book_id": "deliverer",
+            "book_number": "38",
+            "english_book_name": "The Promised Deliverer (Kitab Al-Mahdi)",
+            "arabic_book_name": " كتاب المهدى ",
+            "hadith_amount": 12
+        },
+        {
+            "book_id": "battles",
+            "book_number": "39",
+            "english_book_name": "Battles (Kitab Al-Malahim)",
+            "arabic_book_name": " كتاب الملاحم ",
+            "hadith_amount": 60
+        },
+        {
+            "book_id": "punishments",
+            "book_number": "40",
+            "english_book_name": "Prescribed Punishments (Kitab Al-Hudud)",
+            "arabic_book_name": " كتاب الحدود ",
+            "hadith_amount": 143
+        },
+        {
+            "book_id": "blood_wit",
+            "book_number": "41",
+            "english_book_name": "Types of Blood-Wit (Kitab Al-Diyat)",
+            "arabic_book_name": " كتاب الديات ",
+            "hadith_amount": 102
+        },
+        {
+            "book_id": "prophet_behavior",
+            "book_number": "42",
+            "english_book_name": "Model Behavior of the Prophet (Kitab Al-Sunnah)",
+            "arabic_book_name": " كتاب السنة ",
+            "hadith_amount": 177
+        },
+        {
+            "book_id": "general_behavior",
+            "book_number": "43",
+            "english_book_name": "General Behavior (Kitab Al-Adab)",
+            "arabic_book_name": " كتاب الأدب ",
+            "hadith_amount": 502
+        }
+    ]
+}

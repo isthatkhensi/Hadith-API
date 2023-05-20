@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hadith-it Collection API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .title-l{
+            text-align: center;
+            padding-top: 15px;
+        }
+       .collection-table{
+            padding: 15px 0px;
+            margin: 0 auto;
+            width: 90%
+       }
+
+       .collection-table th:nth-child(1), .collection-table td:nth-child(1),
+       .collection-table th:nth-child(2), .collection-table td:nth-child(2),
+       .collection-table th:nth-child(3), .collection-table td:nth-child(3),
+       .collection-table th:nth-child(5), .collection-table td:nth-child(5){
+        width: 150px;
+        text-align: center;
+       }
+
+       .docu{
+        margin: 0 80px;
+        padding: 50px 0px;
+       }
+
+       .url_query, .code{
+        /* text-decoration: underline; */
+        color: lightseagreen;
+        font-family: 'Inconsolata', monospace;
+       }
+        
+    </style>
+  </head>
+  <body>
+    <h1 class="title-l">Hadith-it Collection API </h1>
+	<table class="table collection-table">
+		<tr>
+			<th>Collection ID</th>
+			<th>Collection Name</th>
+			<th>Arabic Title</th>
+			<th>Description</th>
+			<th>Number of Books</th>
+		</tr>
+		{% for collection in collections %}
+		<tr>
+			<td>{{ collection.id }}</td>
+			<td>{{ collection.collection_name}}</td>
+			<td>{{ collection.collection_name_arabic }}</td>
+			<td>{{ collection.description }}</td>
+			<td>{{ collection.num_books }}</td>
+		</tr>
+		{% endfor %}
+	</table>
+
+    <div class="docu">
+        <h3>API Documentation</h3>
+        <p>The Hadithit Developer API is a web service that provides access to Hadith collections. The API is intended for non-commercial purposes and allows users to retrieve Hadiths by specifying the collection, book name, and Hadith number.</p>
+
+        <h4>API Endpoint</h4>
+        <p>All API queries require a GET request using a URL of the following format:
+
+        <span class="url_query">https://hadithit.com/api/collections/&lt;collection&gt;/&lt;book_name&gt;/&lt;hadith_number&gt;</span>
+
+        <p>Where:</p>
+        <ul>
+        <li>&lt;collection&gt; is the name of the collection to retrieve hadith from.</li>
+        <li>&lt;book_number&gt; is the number of the book within the collection to retrieve hadith from.</li>
+        <li>&lt;hadith_number&gt; is the number of the hadith within the book to retrieve.</li>
+        </ul>
+        <p>Examples:</p>
+        <ul class="url_query">
+            <li>http://hadithit.com/api/collections/sahih_bukhari/1/1</li>
+            <li>http://hadithit.com/api/collections/sahih_muslim/2/345</li>
+        </ul>
+
+
+
+
+        <h4>Collections</h4>
+
+        <p>The API supports the following Hadith collections:</p>
+        <ul>
+            <li>Sahih Al-Bukhari <span class="code">(bukhari)</span></li>
+            <li>Sahih Muslim <span class="code">(muslim)</span></li>
+            <li>Sunan Abi Dawud <span class="code">(abudawud)</span></li>
+            <li>Jami` at-Tirmidhi <span class="code">(tirmidhi)</span></li>
+            <li>Sunan an-Nasa'i <span class="code">(nasai)</span></li>
+            <li>Sunan Ibn Majah <span class="code">(ibnmajah)</span></li>
+        </ul>
+
+        <h4>Response Format</h4>
+
+        <p>The API returns a JSON response containing the requested Hadith information. The JSON response includes the Hadith text, narrator, and source.
+
+            <br/>Examples:
+        <span class="code">
+            <br/>{<br/>
+            "collection": "sahih_bukhari",<br/>
+            "book_number": 1,<br/>
+            "hadith_number": 1,<br/>
+            "text": "Narrated 'Umar bin Al-Khattab: I heard Allah's Messenger (ﷺ) saying, "The reward of deeds depends upon the intentions and every person will get the reward according to what he has intended. So whoever emigrated for worldly benefits or for a woman to marry, his emigration was for what he emigrated for."",<br/>
+            "narrator": "Umar bin Al-Khattab",<br/>
+            "source": "Sahih Bukhari"<br/>
+            }
+        </span>
+        </p>
+        <h4>Possible Errors</h4>
+        <p>
+        The API may return errors in the following cases:
+
+        Invalid collection name
+        Invalid book number
+        Invalid Hadith number
+        In these cases, the API will return a 404 error along with an error message.
+        </p>
+
+        <h4>Terms and Conditions</h4>
+        <p>By using the Hadithit Developer API, you agree to the following terms and conditions:</p>
+        <ul>
+            <li>The API is intended for non-commercial purposes only.</li>
+            <li>The API may be used only for lawful purposes and in compliance with all applicable laws and regulations.</li>
+            <li>The API may not be used in any manner that could damage, disable, overburden, or impair any Hadithit server, or the network(s) connected to any Hadithit server, or interfere with any other party's use and enjoyment of the API.</li>
+            <li>The API is provided "as is" and without warranty of any kind, express or implied, including, but not limited to, the warranties of merchantability, fitness for a particular purpose, and non-infringement.</li>
+            <li>Hadithit reserves the right to modify or discontinue, temporarily or permanently, the API (or any part thereof) with or without notice.</li>
+            <li>Hadithit shall not be liable to you or to any third-party for any modification, suspension, or discontinuance of the API.</li>
+            <li>Hadithit may terminate your access to the API at any time, for any reason, with or without notice.</li>
+            <li>You agree to indemnify and hold Hadithit harmless from any claim or demand, including reasonable attorneys' fees, made by any third-party due to or arising out of your breach of these terms and conditions, or your violation of any law or the rights of any third-party.</li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>

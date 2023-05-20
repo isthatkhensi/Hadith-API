@@ -1,0 +1,275 @@
+{
+    "id": "ibnmajah",
+    "collection_name": "Sunan Ibn Majah",
+    "collection_name_arabic": "سنن ابن ماجه",
+    "description": "Sunan Ibn Majah is a collection of hadith compiled by Imam Muhammad bin Yazid Ibn Majah al-Qazvini (rahimahullah). It is widely considered to be the sixth of the six canonical collection of hadith (Kutub as-Sittah) of the Sunnah of the Prophet (ﷺ).",
+    "num_books": 37,
+    "books": [
+        {
+            "book_id": "introduction",
+            "book_number": "0",
+            "english_book_name": "The Book of the Sunnah",
+            "arabic_book_name": "  كتاب المقدمة ",
+            "hadith_amount": 266
+        },
+        {
+            "book_id": "purification",
+            "book_number": "1",
+            "english_book_name": "The Book of Purification and its Sunnah",
+            "arabic_book_name": "كتاب الطهارة وسننها ",
+            "hadith_amount": 400
+        },
+        {
+            "book_id": "prayer",
+            "book_number": "2",
+            "english_book_name": "The Book of the Prayer",
+            "arabic_book_name": " كتاب الصلاة ",
+            "hadith_amount": 39
+        },
+        {
+            "book_id": "adhan",
+            "book_number": "3",
+            "english_book_name": "The Book of the Adhan and the Sunnah Regarding It",
+            "arabic_book_name": " كتاب الأذان والسنة فيها ",
+            "hadith_amount": 29
+        },
+        {
+            "book_id": "mosques",
+            "book_number": "4",
+            "english_book_name": "The Book On The Mosques And The Congregations",
+            "arabic_book_name": " كتاب المساجد والجماعات ",
+            "hadith_amount": 68
+        },
+        {
+            "book_id": "sunnah_prayer",
+            "book_number": "5",
+            "english_book_name": "Establishing the Prayer and the Sunnah Regarding Them",
+            "arabic_book_name": " كتاب إقامة الصلاة والسنة فيها ",
+            "hadith_amount": 630
+        },
+        {
+            "book_id": "funerals",
+            "book_number": "6",
+            "english_book_name": "Chapters Regarding Funerals",
+            "arabic_book_name": " كتاب الجنائز ",
+            "hadith_amount": 205
+        },
+        {
+            "book_id": "fasting",
+            "book_number": "7",
+            "english_book_name": "Fasting",
+            "arabic_book_name": " كتاب الصيام ",
+            "hadith_amount": 145
+        },
+        {
+            "book_id": "zakat",
+            "book_number": "8",
+            "english_book_name": "The Chapters Regarding Zakat",
+            "arabic_book_name": " كتاب الزكاة ",
+            "hadith_amount": 62
+        },
+        {
+            "book_id": "marriage",
+            "book_number": "9",
+            "english_book_name": "The Chapters on Marriage",
+            "arabic_book_name": " كتاب النكاح ",
+            "hadith_amount": 171
+        },
+        {
+            "book_id": "divorce",
+            "book_number": "10",
+            "english_book_name": "The Chapters on Divorce",
+            "arabic_book_name": " كتاب الطلاق ",
+            "hadith_amount": 462
+        },
+        {
+            "book_id": "expiation",
+            "book_number": "11",
+            "english_book_name": "The Chapters on Expiation",
+            "arabic_book_name": " كتاب الكفارات ",
+            "hadith_amount": 47
+        },
+        {
+            "book_id": "business_transactions",
+            "book_number": "12",
+            "english_book_name": "The Chapters on Business Transactions",
+            "arabic_book_name": " كتاب التجارات ",
+            "hadith_amount": 171
+        },
+        {
+            "book_id": "rulings",
+            "book_number": "13",
+            "english_book_name": "The Chapters on Rulings",
+            "arabic_book_name": " كتاب الأحكام ",
+            "hadith_amount": 67
+        },
+        {
+            "book_id": "gifts",
+            "book_number": "14",
+            "english_book_name": "The Chapters on Gifts",
+            "arabic_book_name": " كتاب الهبات ",
+            "hadith_amount": 15
+        },
+        {
+            "book_id": "charity",
+            "book_number": "15",
+            "english_book_name": "The Chapters on Charity",
+            "arabic_book_name": " كتاب الصدقات ",
+            "hadith_amount": 139
+        },
+        {
+            "book_id": "pawning",
+            "book_number": "16",
+            "english_book_name": "The Chapters on Pawning",
+            "arabic_book_name": " كتاب الرهون ",
+            "hadith_amount": 56
+        },
+        {
+            "book_id": "preemption",
+            "book_number": "17",
+            "english_book_name": "The Chapters on Pre-emption",
+            "arabic_book_name": " كتاب الشفعة ",
+            "hadith_amount": 10
+        },
+        {
+            "book_id": "lost_property",
+            "book_number": "18",
+            "english_book_name": "The Chapters on Lost Property",
+            "arabic_book_name": " كتاب اللقطة ",
+            "hadith_amount": 10
+        },
+        {
+            "book_id": "slaves",
+            "book_number": "19",
+            "english_book_name": "The Chapters on Manumission (of Slaves)",
+            "arabic_book_name": " كتاب العتق ",
+            "hadith_amount": 21
+        },
+        {
+            "book_id": "legal_punishments",
+            "book_number": "20",
+            "english_book_name": "The Chapters on Legal Punishments",
+            "arabic_book_name": " كتاب الحدود ",
+            "hadith_amount": 82
+        },
+        {
+            "book_id": "prophetic_commentary",
+            "book_number": "21",
+            "english_book_name": "The Chapters on Blood Money",
+            "arabic_book_name": " كتاب الديات ",
+            "hadith_amount": 80
+        },
+        {
+            "book_id": "wills",
+            "book_number": "22",
+            "english_book_name": "The Chapters on Wills",
+            "arabic_book_name": " كتاب الوصايا ",
+            "hadith_amount": 24
+        },
+        {
+            "book_id": "inheritance",
+            "book_number": "23",
+            "english_book_name": "Chapters on Shares of Inheritance",
+            "arabic_book_name": " كتاب الفرائض ",
+            "hadith_amount": 34
+        },
+        {
+            "book_id": "jihad",
+            "book_number": "24",
+            "english_book_name": "The Chapters on Jihad",
+            "arabic_book_name": " كتاب الجهاد ",
+            "hadith_amount": 129
+        },
+        {
+            "book_id": "hajj",
+            "book_number": "25",
+            "english_book_name": "Chapters on Hajj Rituals",
+            "arabic_book_name": " كتاب المناسك ",
+            "hadith_amount": 238
+        },
+        {
+            "book_id": "sacrifices",
+            "book_number": "26",
+            "english_book_name": "Chapters on Sacrifices",
+            "arabic_book_name": " كتاب الأضاحي ",
+            "hadith_amount": 42
+        },
+        {
+            "book_id": "slaughtering",
+            "book_number": "27",
+            "english_book_name": "Chapters on Slaughtering",
+            "arabic_book_name": " كتاب الذبائح ",
+            "hadith_amount": 38
+        },
+        {
+            "book_id": "hunting",
+            "book_number": "28",
+            "english_book_name": "Chapters on Hunting",
+            "arabic_book_name": " كتاب الصيد ",
+            "hadith_amount": 51
+        },
+        {
+            "book_id": "food",
+            "book_number": "29",
+            "english_book_name": " Chapters on Food",
+            "arabic_book_name": " كتاب الأطعمة ",
+            "hadith_amount": 120
+        },
+        {
+            "book_id": "drinks",
+            "book_number": "30",
+            "english_book_name": "Chapters on Drinks",
+            "arabic_book_name": " كتاب الأشربة ",
+            "hadith_amount": 65
+        },
+        {
+            "book_id": "medicine",
+            "book_number": "31",
+            "english_book_name": "Chapters on Medicine",
+            "arabic_book_name": " كتاب الطب ",
+            "hadith_amount": 114
+        },
+        {
+            "book_id": "dress",
+            "book_number": "32",
+            "english_book_name": "Chapters on Dress",
+            "arabic_book_name": " كتاب اللباس ",
+            "hadith_amount": 107
+        },
+        {
+            "book_id": "etiquette",
+            "book_number": "33",
+            "english_book_name": "Etiquette",
+            "arabic_book_name": " كتاب الأدب ",
+            "hadith_amount": 170
+        },
+        {
+            "book_id": "supplllication",
+            "book_number": "34",
+            "english_book_name": "Supplication",
+            "arabic_book_name": " كتاب الدعاء ",
+            "hadith_amount": 66
+        },
+        {
+            "book_id": "dreams",
+            "book_number": "35",
+            "english_book_name": "Interpretation of Dreams",
+            "arabic_book_name": " كتاب تعبير الرؤيا ",
+            "hadith_amount": 34
+        },
+        {
+            "book_id": "tribulations",
+            "book_number": "36",
+            "english_book_name": "Tribulations",
+            "arabic_book_name": " كتاب الفتن ",
+            "hadith_amount": 173
+        },
+        {
+            "book_id": "zuhd",
+            "book_number": "37",
+            "english_book_name": "Zuhd",
+            "arabic_book_name": " كتاب الزهد",
+            "hadith_amount": 242
+        }
+    ]
+}
