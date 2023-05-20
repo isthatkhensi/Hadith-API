@@ -7,6 +7,14 @@ from fastapi.templating import Jinja2Templates
 app = FastAPI()
 templates = Jinja2Templates(directory="templates")
 
+def read_json_file(file_path):
+    with open(file_path, "r", encoding="utf-8-sig") as file:
+        return json.load(file)
+
+
+def reverse_arabic_text(text):
+    return text[::-1]
+
 @app.get("/api/collections", response_class=HTMLResponse)
 async def show_collections(request: Request):
     collection_data = []
@@ -27,16 +35,6 @@ async def get_collection(collection_id: str):
     else:
         return {"error": f"Collection {collection_id} not found"}
     
-
-
-def read_json_file(file_path):
-    with open(file_path, "r", encoding="utf-8-sig") as file:
-        return json.load(file)
-
-
-def reverse_arabic_text(text):
-    return text[::-1]
-
 
 def get_collection_data(collection_id):
     collection_path = f"./hadiths/{collection_id}"
@@ -90,17 +88,17 @@ def get_hadith(collection_id: str, book_id: str):
         return {"message": f"Error reading file: {file_path}\n{e}"}
 
 # Testing JSON
-# @app.get("/api/hadiths/{collection_id}/test")
-# def test_hadiths(collection_id: str):
-#     collection_data = get_collection_data(collection_id)
-#     if collection_data is None:
-#         return {"message": f"Collection '{collection_id}' not found."}
+@app.get("/api/hadiths/{collection_id}/test")
+def test_hadiths(collection_id: str):
+    collection_data = get_collection_data(collection_id)
+    if collection_data is None:
+        return {"message": f"Collection '{collection_id}' not found."}
 
-#     # Print the first five dictionaries
-#     for i, item in enumerate(collection_data[:5], 1):
-#         print(f"Dictionary {i}: {item}")
+    # Print the first five dictionaries
+    for i, item in enumerate(collection_data[:5], 1):
+        print(f"{item}")
 
-#     return {"message": "Test completed."}
+    return {"message": "Test completed."}
 
 if __name__ == "__main__":
     import uvicorn
