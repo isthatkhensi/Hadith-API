@@ -13,6 +13,9 @@ def read_json_file(file_path):
 
 def reverse_arabic_text(text):
     return text[::-1]
+@app.get("/")
+def root():
+    return {"message": "Welcome to the Sunnah Hadith API!"}
 
 def get_collection_data(collection_id, book_id=None):
     collection_path = f"./hadiths/{collection_id}"
